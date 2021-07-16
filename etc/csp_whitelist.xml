@@ -18,6 +18,9 @@
                 <!--Functions-->
                 <value id="facebook_net" type="host">*.facebook.net</value>
                 <value id="facebook_com" type="host">*.facebook.com</value>
+                
+                <!-- Accessibe -->
+                <value id="accessibe" type="host">*.acsbapp.com</value>
             </values>
         </policy>
         <policy id="style-src">
