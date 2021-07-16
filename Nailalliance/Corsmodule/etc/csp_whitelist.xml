@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright  Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<csp_whitelist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Csp/etc/csp_whitelist.xsd">
+    <policies>
+        <policy id="script-src">
+            <values>
+                <!--CDN-->
+                <value id="cloudflare" type="host">*.cloudflare.com</value>
+
+                <!--Google-->
+                <value id="google-analytics" type="host">www.google-analytics.com</value>
+
+                <!--Functions-->
+                <value id="facebook_net" type="host">*.facebook.net</value>
+                <value id="facebook_com" type="host">*.facebook.com</value>
+            </values>
+        </policy>
+        <policy id="style-src">
+            <values>
+                <!--CDN-->
+                <value id="cloudflare" type="host">*.cloudflare.com</value>
+
+                <!--Design-->
+                <value id="typekit" type="host">*.typekit.net</value>
+            </values>
+        </policy>
+        <policy id="img-src">
+            <values>
+                <!--CDN-->
+                <value id="cloudflare" type="host">*.fbcdn.net</value>
+
+                <!--Payments-->
+                <value id="paypal" type="host">*.paypal.com</value>
+
+                <!--Video-->
+                <value id="vimeocdn" type="host">*.vimeocdn.com</value>
+                <value id="youtube-img" type="host">https://s.ytimg.com</value>
+                <value id="instagram-img" type="host">*.cdninstagram.com</value>
+
+                <!--Functions-->
+            </values>
+        </policy>
+        <policy id="connect-src">
+            <values>
+                <!--CDN-->
+                <value id="facebook_com" type="host">*.facebook.com</value>
+
+                <!--Payments-->
+                <value id="paypal" type="host">*.paypal.com</value>
+                <value id="instagram" type="host">*.instagram.com</value>
+            </values>
+        </policy>
+        <policy id="font-src">
+            <values>
+                <!--CDN-->
+                <value id="cloudflare" type="host">*.cloudflare.com</value>
+
+                <!--Design-->
+                <value id="typekit" type="host">*.typekit.net</value>
+
+                <!--Functions-->
+                <value id="trustedshops" type="host">*.trustedshops.com</value>
+            </values>
+        </policy>
+        <policy id="frame-src">
+            <values>
+                <value id="youtube" type="host">*.youtube.com</value>
+                <value id="instagram" type="host">*.instagram.com</value>
+            </values>
+        </policy>
+    </policies>
+</csp_whitelist>
