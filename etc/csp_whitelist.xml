@@ -14,6 +14,7 @@
 
                 <!--Google-->
                 <value id="google-analytics" type="host">www.google-analytics.com</value>
+                <value id="google" type="host">*.google.com</value>
 
                 <!--Functions-->
                 <value id="facebook_net" type="host">*.facebook.net</value>
