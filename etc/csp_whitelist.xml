@@ -36,6 +36,7 @@
         
         <!--Fonts-->
         <value id="gstatic" type="host">*.gstatic.com</value>
+        <value id="fonts_googleapis_com" type="host">fonts.googleapis.com</value>
       </values>
     </policy>
     <policy id="img-src">
