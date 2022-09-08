@@ -33,6 +33,9 @@
 
         <!--Design-->
         <value id="typekit" type="host">*.typekit.net</value>
+        
+        <!--Fonts-->
+        <value id="gstatic" type="host">*.gstatic.com</value>
       </values>
     </policy>
     <policy id="img-src">
@@ -79,6 +82,9 @@
 
         <!--Functions-->
         <value id="trustedshops" type="host">*.trustedshops.com</value>
+        
+        <!--Fonts-->
+        <value id="gstatic" type="host">*.gstatic.com</value>
       </values>
     </policy>
     <policy id="frame-src">
