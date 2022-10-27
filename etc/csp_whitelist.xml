@@ -25,6 +25,9 @@
         <!-- Accessibe -->
         <value id="accessibe_sub" type="host">*.acsbapp.com</value>
         <value id="accessibe" type="host">acsbapp.com</value>
+        
+        <!-- Youtube -->
+        <value id="youtube" type="host">*.youtube.com</value>
       </values>
     </policy>
     <policy id="style-src">
