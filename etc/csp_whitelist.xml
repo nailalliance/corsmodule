@@ -28,6 +28,9 @@
         
         <!-- Youtube -->
         <value id="youtube" type="host">*.youtube.com</value>
+
+        <!--Analytics-->
+        <value id="nailallianceuk" type="host">*.nailalliance.co.uk</value>
       </values>
     </policy>
     <policy id="style-src">
@@ -51,6 +54,9 @@
 
         <!--Payments-->
         <value id="paypal" type="host">*.paypal.com</value>
+
+        <!--Analytics-->
+        <value id="nailallianceuk" type="host">*.nailalliance.co.uk</value>
 
         <!--Video-->
         <value id="vimeocdn" type="host">*.vimeocdn.com</value>
