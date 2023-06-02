@@ -56,7 +56,7 @@
         <value id="paypal" type="host">*.paypal.com</value>
 
         <!--Analytics-->
-        <value id="nailallianceuk" type="host">*.nailalliance.co.uk</value>
+        <value id="nailallianceuk-img" type="host">*.nailalliance.co.uk</value>
 
         <!--Video-->
         <value id="vimeocdn" type="host">*.vimeocdn.com</value>
